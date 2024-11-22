@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', main.init);
  * Add copy button to code block
  */
 document.addEventListener('DOMContentLoaded', () => {
-  const highlights = document.querySelectorAll('.row div.highlight');
+  const highlights = document.querySelectorAll('.row div.highlight .none');
   const copyText = '📋';
   const copiedText = '✔️';
 
